@@ -1,0 +1,45 @@
+{
+  "name": "mouse-detection-tool",
+  "version": "1.0.0",
+  "description": "",
+  "browser": "dist/mouse-detection.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yamatende",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olarsson/mouse-detection.git"
+  },
+  "keywords": [
+    "detect mouse",
+    "find mouse",
+    "mouse detection",
+    "mousedetection",
+    "mouse",
+    "detect",
+    "mousemove",
+    "mouseevent"
+  ],
+  "browserslist": [
+    "defaults"
+  ],
+  "dependencies": {
+    "anchorate": "^1.1.0",
+    "victory": "0.13.6",
+    "lodash": "^4.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-transform-arrow-functions": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^5.0.0",
+    "eslint": "^7.12.1",
+    "sass": "^1.28.0",
+    "sass-loader": "^10.0.5",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.1.0"
+  }
+}
